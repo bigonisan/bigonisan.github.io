@@ -228,6 +228,10 @@
     content:"\A";
     white-space: pre;
   }
+  
+    .btn {
+    font-size:25px;
+  }
 
 /* 学んだ言語 */
 
