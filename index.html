@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Progateでプログラミングを学ぼう！</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <script src="animation.js"></script>
+
+    <div id="header">
+      <div class="contaioner">
+        <div id="left-header">
+          <h3 id="top-btn" class="header-title">Progateでプログラミングを学ぼう</h3>
+        </div>
+        <div id="right-header">
+          <span class="bar open"><i class="fas fa-bars"></i></span>
+          <span id="close-mark" class="close"><i class="fas fa-times"></i></span>
+          <div class="header-list">
+            <a class="scroll-btn" href="#lesson-wrapper">学んだ言語</a>
+            <a class="scroll-btn" href="#feature-wrapper">特徴</a>
+            <a class="scroll-btn" href="#message-wrapper">お問い合わせ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="header-menu" class="close">
+      <div class="container">
+        <div class="menu">
+          <div class="menu-list">
+            <a href="#lesson-wrapper" class="border">学んだ言語</a>
+            <a href="#feature-wrapper" class="border">特徴</a>
+            <a href="#message-wrapper">お問い合わせ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="top-wrapper">
+      <div class="container">
+        <div id="top-text">
+          <h1 id="top-title">Progateで<span class="br">プログラミングを学ぼう！</span></h1>
+          <p id="top-sub">Progateは初心者でも、わかりやすい解説とスライドで<sapn class="br">プログラミングを学ぶことができます。<br></span>
+              プログラミングを始めようと考えてるあなた、<span class="br">Progateでプログラミングを始めよう！</span></p>
+        </div>
+        <div class="top-btn">
+          <a class="btn" href="https://prog-8.com/" target="_blank">Progateへ</a>
+        </div>
+        <div class="bg-authoress">
+          <a href="https://pixabay.com/ja/users/Goumbik-3752482/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2717063" target="_blank">Goumbik</a>
+          による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2717063" target="_blank">Pixabay</a>
+          からの画像
+        </div>
+      </div>
+    </div>
+
+<div id="lesson-wrapper">
+  <div class="container">
+    <h2 class="section-title">学んだ言語</h2>
+    <ul class="lessons clearfix">
+
+      <li class="lesson">
+        <div class="lesson-icon">
+          <img src="img/html.png" alt="HTML" width="250px" height="250px">
+          <p>HTML</p>
+        </div>
+        <div class="lesson-desc">
+          <p>HTMLは、ウェブページを作成するために開発された言語です。
+            現在、インターネット上で公開されてるウェブページのほとんどは、
+            HTMLで作成されています。</p>
+        </div>
+      </li>
+
+      <li class="lesson">
+        <div class="lesson-icon">
+          <img id="css" src="img/css.png" alt="CSS" width="250px" height="250px">
+          <p>CSS</p>
+        </div>
+        <div class="lesson-desc">
+          <p>HTMLが、見出しやヘッダ情報などWebページの文書構造を形作るための言語であるのに対し、
+            CSS言語は文書構造にデザインを施し、見栄えを整える役割を担っています。</p>
+        </div>
+      </li>
+
+      <li class="lesson">
+        <div class="lesson-icon">
+          <img src="img/jquery.png" alt="jQuery" width="250px" height="250px">
+          <p>jQuery</p>
+        </div>
+        <div class="lesson-desc">
+          <p>素敵な動きを手軽に実装できるJavaScriptライブラリです。
+            アニメーション効果をつけたり、Ajax（エイジャックス）を
+            使って外部ファイルを読み込んだりと色々なことができます。</p>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</div>
+
+<div id="feature-wrapper">
+  <div class="container">
+    <h2 class="section-title">Progateの特徴</h2>
+    <div class="feature clearfix">
+      <div class="feature-title">
+       イラスト中心で<span class="br">直感的に理解できる学習！</span>
+      </div>
+        <img src="img/slide.jpg" alt="特徴１" width="600px" height="350px" class="slide-image">
+      <div class="desc">
+        <p>Progateは<span class="bold">動画形式</span>ではなく、<span class="red">スライド形式の学習サイト</span>です。<br>
+          スライドの説明は<span class="border"><span class="bold">イラストが中心</span>になっており、<span class="bold">直感的でわかりやすい</span>形</span>になっています。
+          イラスト中心のため、スライドだからわかりにくい、などはありませんでした。<br>
+          むしろ個人的には、動画は場所を選ぶし、自分のスピードで勉強できない(飛ばしたり、ゆっくり見たり)ので、
+          スライド形式の方が勉強しやすかったですね！</p>
+      </div>
+    </div>
+    <div class="feature clearfix">
+      <div class="feature-title">
+       初心者が躓くポイントを<span class="br">わかりやすくしている</sapn>
+      </div>
+        <img src="img/progate.jpg" alt="特徴２" width="600px" height="350px" class="slide-image">
+      <div class="desc">
+        <p>エディタの用意や環境構築など、<span class="bold">初心者にはハードルが高い部分</span>をなくし、
+          <span class="red">ネットが繋がっていればすぐに始める</span>ことができます！<br>
+          わからなくてもヒントを用意してあり、ヒントを見てもわからなければ、
+          回答例を確認できるので、<span class="border">「<span class="bold">わからなくて進まない</span>」ということはありません！</span><br>
+          また、<span class="bold">エラーが日本語で表示される</span>ようになっているため、<span class="red">エラーで躓くことはありません</span>。
+        </p>
+      </div>
+    </div>
+    <div class="feature clearfix">
+      <div class="feature-title">
+       アプリ版もリリース！<span class="br">電車でも時間が空いた瞬間に勉強できる</sapn>
+      </div>
+        <img src="img/app.jpg" alt="特徴３" width="600px" height="350px" class="slide-image">
+      <div class="desc">
+        <p>
+          Progateではなんと<span class="border"><span class="bold">アプリ版もリリース</span>されており、<span class="bold">スマホで気軽に始める</span>こともできます！</span><br>
+          レッスンの数は、23レッスンとPC版に比べて少ないですが、<span class="bold">基礎を学ぶ分には問題ありません</span>。
+          ですが、アプリ版だけでプログラミングを<span class="red">マスターするのはむずかしい</span>と思います。<br>
+          <span class="boder">移動中に気軽に基礎を学んだり、復習したりする使い方をするといいでしょう！</span>
+        </p>
+      </div>
+    </div>
+    <div class="quote clearfix">
+      <a href="https://zero-engineer.com/progate/" target="_blank">こちらから引用させていただきました。<span><i class="fas fa-external-link-alt"></i></span></a>
+    </div>
+ </div>
+</div>
+
+<div id="message-wrapper">
+  <div class="container">
+    <h2 class="section-title">お問い合わせ</h2>
+    <form>
+      <label>Email<input type="text" name="email" class="oneLine"></label>
+      <label>Subject<input type="text" name="subject" class="oneLine"></label>
+      <label>Message<textarea name="message"  class="message"></textarea></label>
+      <input type="submit" name="submit" value="送信" class="send">
+    </form>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <p>Progateでプログラミングを学ぼう！</p>
+  </div>
+</footer>
+
+<script src="https://kit.fontawesome.com/ec4338a0c4.js"></script>
+  </body>
+</html>
