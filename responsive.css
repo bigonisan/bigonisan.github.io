@@ -1,0 +1,341 @@
+@media screen and (max-width: 1000px){
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .br::before {
+    content:"\A";
+    white-space: pre;
+  }
+
+  .close {
+    display: none;
+  }
+
+  /* ヘッダー */
+
+  #header {
+    height: 50px;
+    display: none;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+.header-list {
+  margin-right: 5px;
+}
+
+  .header-list a {
+    font-size: 15px;
+  }
+
+  .header-list a:hover {
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    transition: all 0.5s;
+  }
+
+  /* トップ */
+
+  #top-text {
+    padding-top: 50px;
+  }
+
+  #top-wrapper h1 {
+    font-size: 42px;
+  }
+
+  #top-text p {
+    font-size: 20px;
+  }
+
+  .top-btn {
+    margin-top: 40px;
+  }
+
+  /* 学んだ言語 */
+
+.lesson-icon img {
+  width: 220px;
+  height: 220px;
+}
+
+.lesson-icon p {
+  font-size: 25px;
+  top: 70px;
+}
+
+.lesson-desc {
+  padding-left: 30px;
+}
+
+  /* 特徴 */
+
+.feature-title {
+  margin: 40px 0 40px 35px;
+  padding: 8px 60px;
+}
+
+.slide-image {
+  padding: 0;
+  margin: 0 0 0 40px;
+  width: 90%;
+  height: 400px;
+}
+
+.desc {
+  margin: 30px 60px 0 0 ;
+  padding: 0;
+  width: 85%;
+}
+
+.desc p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.quote a {
+  font-size: 18px;
+}
+
+  /* お問い合わせ */
+
+  .message {
+    margin: 0 auto;
+    resize: none;
+    width:90%;
+    height:100px;
+  }
+
+  /* フッター */
+}
+
+
+
+@media screen and (max-width: 700px){
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+
+  .clearfix:after {}
+
+  .section-title {
+    padding: 30px 0 30px 0;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    display: none;
+  }
+
+/* ヘッダー */
+
+  #header {
+    height: 50px;
+    display: none;
+  }
+
+  .header-title{
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 50px;
+  }
+
+  .bar {
+    font-size: 22px;
+    line-height: 50px;
+    margin-right: 15px;
+  }
+
+  #close-mark {
+    font-size: 22px;
+    line-height: 50px;
+    margin-right: 15px;
+  }
+
+  .header-list{
+    display: none;
+  }
+
+  /* メニュー */
+
+  #header-menu {
+    width: 40%;
+    height: 80px;
+    background-color: rgba(105, 105, 105, 0.9);
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 10;
+  }
+
+  .menu-list a {
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .border {
+    border-bottom: 1px solid #fff;
+  }
+
+  /* トップ */
+
+  #top-wrapper {
+    height: 450px;
+    margin-bottom: 30px;
+  }
+
+  #top-text h1 {
+    font-size: 28px;
+  }
+
+  #top-text p {
+    font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .bg-authoress {
+    color: black;
+    font-size: 12px;
+    text-align: right;
+  }
+
+  .bg-authoress a {
+    color: black;
+  }
+
+  .br::before {
+    content:"\A";
+    white-space: pre;
+  }
+
+/* 学んだ言語 */
+
+  .lesson {
+    clear: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .lesson-title {
+    font-size: 15px;
+  }
+
+
+  .lesson-icon img  {
+    width: 180px;
+    height: 180px;
+  }
+
+  .lesson-icon p {
+    top: 50px;
+  }
+
+  .lesson-desc {
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 10px 0 25px 0;
+  }
+
+  .lesson-desc p {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 特徴 */
+
+  .feature {
+    margin: 0 0 40px 0;
+  }
+
+  .feature-desc {
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 20px 0 20px 10px;
+  }
+
+  .feature-title {
+    font-size: 18px;
+    padding: 0 0 0 20px;
+    margin: 20px 0 20px 10px;
+  }
+
+  .slide-image {
+    padding: 0;
+    width: 90%;
+    height: 215px;
+    margin: 0 0 0 18px;
+  }
+
+  .desc {
+    width: 90%;
+    padding: 0;
+    margin: 10px 15px 0 0;
+    font-size: 15px;
+    line-height: 33px;
+  }
+
+  .desc p {
+    font-size: 15px;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .quote a {
+    margin: 5px 10px 30px 0;
+    font-size: 13px;
+  }
+
+  /* お問い合わせ */
+
+  #message-wrapper {
+    padding: 0;
+    margin: 0;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  .oneLine {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .message {
+    margin: 0 auto;
+    resize: none;
+    width:80%;
+    height:100px;
+  }
+
+  .send {
+    margin: 20px 0 40px 0;
+  }
+
+  /* フッター */
+
+  .footer p {
+    font-size: 10px;
+  }
+}
